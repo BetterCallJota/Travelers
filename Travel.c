@@ -386,4 +386,6 @@ void listar_pasajeros_de_viaje(AVLNode *raiz) {
     scanf("%d", &identificador);
 
     listar_pasajeros(raiz, identificador);
+
+    Return 0;
 }
